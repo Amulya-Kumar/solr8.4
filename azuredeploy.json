@@ -69,7 +69,7 @@
     "sitecoreSKU": {
       "type": "string",
       "allowedValues": [ "Extra Small", "Small", "Medium", "Large", "Extra Large", "2x Large", "3x Large" ],
-      "defaultValue": "Extra Large",
+      "defaultValue": "Medium",
       "metadata": {
         "description": "Sitecore SKU controls the sizes and service levels of the provisioned resources"
       }
@@ -193,7 +193,7 @@
     "coreSqlDatabasePassword": {
       "type": "securestring",
       "minLength": 8,
-      "defaultValue": "YqdFJZK@owc3"
+      "defaultValue": "XFl&HQRZyvFa"
     },
     "securitySqlDatabaseUserName": {
       "type": "string",
@@ -203,7 +203,7 @@
     "securitySqlDatabasePassword": {
       "type": "securestring",
       "minLength": 8,
-      "defaultValue": "YqdFJZK@owc3"
+      "defaultValue": "XFl&HQRZyvFa"
     },
     "masterSqlDatabaseUserName": {
       "type": "string",
@@ -213,7 +213,7 @@
     "masterSqlDatabasePassword": {
       "type": "securestring",
       "minLength": 8,
-      "defaultValue": "YqdFJZK@owc3"
+      "defaultValue": "XFl&HQRZyvFa"
     },
     "webSqlDatabaseUserName": {
       "type": "string",
@@ -223,7 +223,7 @@
     "webSqlDatabasePassword": {
       "type": "securestring",
       "minLength": 8,
-      "defaultValue": "YqdFJZK@owc3"
+      "defaultValue": "XFl&HQRZyvFa"
     },
     "formsSqlDatabaseUserName": {
       "type": "string",
@@ -233,7 +233,7 @@
     "formsSqlDatabasePassword": {
       "type": "securestring",
       "minLength": 8,
-      "defaultValue": "YqdFJZK@owc3"
+      "defaultValue": "XFl&HQRZyvFa"
     },
     "exmMasterSqlDatabaseUserName": {
       "type": "string",
@@ -243,7 +243,7 @@
     "exmMasterSqlDatabasePassword": {
       "type": "securestring",
       "minLength": 8,
-      "defaultValue": "YqdFJZK@owc3"
+      "defaultValue": "XFl&HQRZyvFa"
     },
     "reportingSqlDatabaseUserName": {
       "type": "string",
@@ -253,7 +253,7 @@
     "reportingSqlDatabasePassword": {
       "type": "securestring",
       "minLength": 8,
-      "defaultValue": "YqdFJZK@owc3"
+      "defaultValue": "XFl&HQRZyvFa"
     },
     "poolsSqlDatabaseUserName": {
       "type": "string",
@@ -263,7 +263,7 @@
     "poolsSqlDatabasePassword": {
       "type": "securestring",
       "minLength": 8,
-      "defaultValue": "YqdFJZK@owc3"
+      "defaultValue": "XFl&HQRZyvFa"
     },
     "tasksSqlDatabaseUserName": {
       "type": "string",
@@ -273,7 +273,7 @@
     "tasksSqlDatabasePassword": {
       "type": "securestring",
       "minLength": 8,
-      "defaultValue": "YqdFJZK@owc3"
+      "defaultValue": "XFl&HQRZyvFa"
     },
     "xcRefDataSqlDatabaseUserName": {
       "type": "string",
@@ -283,7 +283,7 @@
     "xcRefDataSqlDatabasePassword": {
       "type": "securestring",
       "minLength": 8,
-      "defaultValue": "YqdFJZK@owc3"
+      "defaultValue": "XFl&HQRZyvFa"
     },
     "xcShardMapManagerSqlDatabaseUserName": {
       "type": "string",
@@ -293,7 +293,7 @@
     "xcShardMapManagerSqlDatabasePassword": {
       "type": "securestring",
       "minLength": 8,
-      "defaultValue": "YqdFJZK@owc3"
+      "defaultValue": "XFl&HQRZyvFa"
     },
     "xcMaSqlDatabaseUserName": {
       "type": "string",
@@ -303,7 +303,7 @@
     "xcMaSqlDatabasePassword": {
       "type": "securestring",
       "minLength": 8,
-      "defaultValue": "YqdFJZK@owc3"
+      "defaultValue": "XFl&HQRZyvFa"
     },
     "processingEngineSqlDatabaseUserName": {
       "type": "string",
@@ -313,7 +313,7 @@
     "processingEngineSqlDatabasePassword": {
       "type": "securestring",
       "minLength": 8,
-      "defaultValue": "YqdFJZK@owc3"
+      "defaultValue": "XFl&HQRZyvFa"
     },
 
     "redisCacheName": {
@@ -343,7 +343,7 @@
 
     "solrConnectionString": {
       "type": "securestring",
-      "defaultValue": "http://prd-solr-01.upfield-digital.com:8984/solr/;solrCloud=false"
+      "defaultValue": "http://dev-solr-01.upfield-digital.com:8984/solr/;solrCloud=false"
     },
     "xcSolrConnectionString": {
       "type": "securestring",
@@ -549,13 +549,13 @@
     "siClientSecret": {
       "type": "securestring",
       "minLength": 6,
-      "defaultValue": "YqdFJZK@owc3"
+      "defaultValue": "XFl&HQRZyvFa"
     },
 
     "telerikEncryptionKey": {
       "type": "securestring",
       "minLength": 8,
-      "defaultValue": "YqdFJZK@owc3"
+      "defaultValue": "XFl&HQRZyvFa"
     },
 
     "allowInvalidClientCertificates": {
@@ -571,7 +571,7 @@
 
     "xcServerConfigurationEnvironment": {
       "type": "string",
-      "defaultValue": "Production",
+      "defaultValue": "Development",
       "allowedValues": [ "Development", "Production" ]
     },
     "authCertificateName": {
@@ -627,7 +627,7 @@
 
     "environmentType": {
       "type": "string",
-      "defaultValue": "Production"
+      "defaultValue": "Development"
     },
 
     "azureServiceBusQueues": {
